@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+</head>
+<style type="text/css">
+	.div1{
+		text-align: center;
+		background-color: black;
+		color: white;
+		padding: 10px;
+		margin: 10px;
+	}
+	.div0{
+		text-align: center;
+		background-color: grey;
+		color: white;
+	}
+</style>
+<body>
+	<div class="div0">
+		<h1>SURVEY</h1>
+	</div>	
+	<form action="GET/POST">
+		<div class="div1">
+		<Label>Name</Label>
+		<input type="text" name="name" placeholder="Name"><br><br>
+		<Label>Age</Label>
+		<input type="number" name="age" placeholder="Age"><br><br>
+		<Labe>Blood group</Label>
+		<select name="bloodgroup">
+			<option value="A+">A+</option>
+			<option value="A-">A-</option>
+			<option value="AB+">AB+</option>
+			<option value="AB-">AB-</option>
+			<option value="O+">O+</option>
+			<option value="O-">O-</option>
+		</select>
+		<br>
+		<br>
+		<label>GENDER</label><br>
+		<input type="radio" name="gender" value="Male">
+		<label for= "male">Male</label>
+			
+		<input type="radio" name="gender" value="female">
+		<label for= "female">Female</label>
+		<br>
+		<br>
+		<label>Relationship Status</label><br>
+		<input type="radio" name="status" value="Single">
+		<label for="Single">Single</label>
+		<input type="radio" name="status" value="Married">
+		<label for="Married">Married</label>
+
+		<br>
+		<br>
+		<LABEL>Address:</LABEL>
+		<br>
+		<textarea name="Message" placeholder="Address"></textarea>
+		<br>
+		<br>
+		<input type ="submit" name="submit">
+	</div>
+	</form>
+
+</body>
+</html>
